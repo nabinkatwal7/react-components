@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+  padding-bottom: 1000px;
+}
+
+.grid {
+  display: flex;
+  margin-right: -20px;
+}
+
+.column {
+  display: flex;
+  flex-flow: column;
+  flex: 1 50%;
+  margin-right: 20px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.image img {
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
